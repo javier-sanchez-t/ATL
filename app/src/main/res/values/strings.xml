@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ATL</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Acerca de</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="diccionario">Diccionario</string>
+    <string name="lecciones">Lecciones</string>
+    <string name="logros">Logros</string>
+
+    <string name="basico">Básico</string>
+    <string name="medio">Medio</string>
+    <string name="avanzado">Avanzado</string>
+
+</resources>

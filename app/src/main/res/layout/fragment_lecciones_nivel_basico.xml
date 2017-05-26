@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#81d4fa">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona la opción correcta para:"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Qué tal?"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btn_nivel_basico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/circle_background"
+        android:drawableTop="@mipmap/ic_nivel_basico"
+        android:gravity="center"
+        android:text="Kawayo"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_nivel_medio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/circle_background"
+        android:drawableTop="@mipmap/ic_nivel_medio"
+        android:gravity="center"
+        android:text="Tlenka"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+
+
+
+
+</LinearLayout-->
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81d4fa"
+    android:textAlignment="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona la opción correcta para:"
+        android:textAlignment="center"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Qué tal?"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_incorrecto1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/circle_background"
+            android:drawableTop="@mipmap/ic_nivel_basico"
+            android:gravity="center"
+            android:text="Kawayo"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_correcto"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/circle_background"
+            android:drawableTop="@mipmap/ic_nivel_medio"
+            android:gravity="center"
+            android:text="Tlenka"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_incorrecto2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/circle_background"
+            android:drawableTop="@mipmap/ic_nivel_avanzado"
+            android:gravity="center"
+            android:text="Tepetl"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_incorrecto3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/circle_background"
+            android:drawableTop="@mipmap/ic_nivel_avanzado"
+            android:gravity="center"
+            android:text="Kalli"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+    </TableRow>
+</TableLayout>

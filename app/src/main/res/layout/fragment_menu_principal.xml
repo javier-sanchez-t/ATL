@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#81d4fa">
+
+    <Button
+        android:id="@+id/btn_diccionario_menu"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/circle_background"
+        android:drawableTop="@mipmap/ic_diccionario"
+        android:gravity="center"
+        android:text="@string/diccionario"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_lecciones_menu"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/circle_background"
+        android:drawableTop="@mipmap/ic_lecciones"
+        android:gravity="center"
+        android:text="@string/lecciones"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_logros"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/circle_background"
+        android:drawableTop="@mipmap/ic_logros"
+        android:gravity="center"
+        android:text="@string/logros"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+</LinearLayout>
