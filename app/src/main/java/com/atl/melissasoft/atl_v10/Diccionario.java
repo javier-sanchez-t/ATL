@@ -35,12 +35,15 @@ public class Diccionario extends Fragment {
 
     public Diccionario() {
         // Required empty public constructor
+
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //Se muestra el título de la vista
+        getActivity().setTitle("Diccionario");
     }
 
     public void fetchData() {

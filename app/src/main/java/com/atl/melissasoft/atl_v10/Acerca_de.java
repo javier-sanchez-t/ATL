@@ -19,6 +19,8 @@ public class Acerca_de extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //Se muestra el título de la vista
+        getActivity().setTitle("Acerca de");
     }
 
     @Override

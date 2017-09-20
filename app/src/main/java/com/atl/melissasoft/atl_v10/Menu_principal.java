@@ -21,6 +21,8 @@ public class Menu_principal extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //Se muestra el título de la vista
+        getActivity().setTitle("Inicio");
     }
 
 
@@ -34,7 +36,7 @@ public class Menu_principal extends Fragment {
         View.OnClickListener click_listener_diccionario = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().setTitle("Diccionario");
+                //getActivity().setTitle("Diccionario");
                 FragmentTransaction fragmentTrans = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTrans.replace(R.id.frame_container, new Diccionario());
                 fragmentTrans.commit();
@@ -44,7 +46,7 @@ public class Menu_principal extends Fragment {
         View.OnClickListener click_listener_lecciones = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().setTitle("Lecciones");
+                //getActivity().setTitle("Lecciones");
                 FragmentTransaction fragmentTrans = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTrans.replace(R.id.frame_container, new Lecciones());
                 fragmentTrans.commit();
@@ -54,7 +56,7 @@ public class Menu_principal extends Fragment {
         View.OnClickListener click_listener_logros = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().setTitle("Logros");
+                //getActivity().setTitle("Logros");
                 FragmentTransaction fragmentTrans = getActivity().getSupportFragmentManager().beginTransaction();
                 fragmentTrans.replace(R.id.frame_container, new Logros());
                 fragmentTrans.commit();
