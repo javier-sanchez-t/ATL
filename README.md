@@ -9,6 +9,7 @@ Android application for learning "Nahuatl"
 ## Technologies
 
 - Java
+- Sqlite
 
 ## Type
 
